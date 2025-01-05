@@ -2,6 +2,7 @@ import React from 'react'
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
+import { IoMail } from "react-icons/io5";
 
 const Footer = () => {
   return (
@@ -34,8 +35,9 @@ const Footer = () => {
       <div id="icon">
         <ul>
       <li><a href="https://www.instagram.com/bhoopendra___97/"><FaInstagram />Instagram</a></li>
-     <li> <FaLinkedin /></li>
-     <li><FaFacebookSquare /></li>
+     <li><a href=""> <FaLinkedin />Linkedin</a></li>
+     <li><a href=""><FaFacebookSquare />Facebook</a></li>
+     <li><a href=""><IoMail />Mail</a></li>
       </ul>
       </div>
       
