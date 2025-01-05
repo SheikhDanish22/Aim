@@ -5,8 +5,8 @@ import { FaFacebookSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div id='footer'>
-    <div style={{backgroundColor:"aqua", width:"100px"}}>
+    <div id="Footer"  style={{ width:"100%"}}>
+    <div style={{ width:"100%"}}>
       {/* <h1 >Footer</h1> */}
       <div style={{display:"flex", justifyContent:"space-around",  alignItems:"center", width:"200vh",fontSize:"20px",  backgroundColor:"whitesmoke", color:"black"}}>
       <div style={{cursor:"pointer"}}>
@@ -33,16 +33,14 @@ const Footer = () => {
       </div>
       <div id="icon">
         <ul>
-      <li><a href="https://www.instagram.com/bhoopendra___97/"><FaInstagram /></a></li>
+      <li><a href="https://www.instagram.com/bhoopendra___97/"><FaInstagram />Instagram</a></li>
      <li> <FaLinkedin /></li>
      <li><FaFacebookSquare /></li>
       </ul>
       </div>
       
-      </div>
-
       
-
+      </div>
 
     </div>
     </div>

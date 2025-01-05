@@ -50,11 +50,17 @@
     flex-wrap: wrap;
  }
 
- #footer{
-    display: flex;
-    flex-direction: column;
- }
+
 } */
 
+#Footer{
+    display: flex;
+   padding-top: 20px;
+   width: 100%;
+   
+   
+   flex-wrap: wrap;
+   overflow-x: hidden;
+ }
 
 
