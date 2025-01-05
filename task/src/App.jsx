@@ -7,12 +7,14 @@ import Content from "./pages/Content";
 
 
 
+
 const App=()=>{
   return(
     <>
            <BrowserRouter>
               <Routes>
                   <Route path="/" element={<Layout/>}>
+                  <Route index element={<About/>}/>
                   <Route path="about" element={<About/>}/>
                   <Route path="service" element={<Service/>}/>
                   <Route path="tailored" element={<Strategies/>}/>
