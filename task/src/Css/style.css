@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    display: flex;
+}
+
+#box2{
+    padding-left: 30px;
+
+}
+#box2 img{
+    border-radius: 5px;
+}
+
+#box2 img:hover{
+   cursor: pointer;
+   border-radius: 2px solid black;
+   
+}
+
+@media (min-width: 480px) {
+
+
+ .mainAbout{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+ }
+
+ #main{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ #main #box2{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ #footer{
+    display: flex;
+    flex-direction: column;
+ }
+}
+
+
+
